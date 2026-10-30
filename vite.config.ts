@@ -10,7 +10,7 @@ const rootDir = typeof import.meta.dirname === 'string'
 
 export default defineConfig(() => {
   return {
-    base: '/DMS/',
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
